@@ -251,6 +251,7 @@ CREATE TABLE `user` (
   `username` varchar(32) NOT NULL,
   `password` varchar(64) NOT NULL,
   `email` varchar(128) NOT NULL,
+  `enabled` tinyint(1) NOT NULL DEFAULT 1,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;

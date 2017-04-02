@@ -1,3 +1,4 @@
 /target
 /.idea
 /j2eeweb.iml
+/src/main/resources/prod.properties
